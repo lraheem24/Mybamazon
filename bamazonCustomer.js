@@ -92,7 +92,8 @@ function updateInventory(item_name, updatedQuantity) {
         console.log(product)
         for (var i = 0; i < product.length; i++) {
             if (item_name === product[i].item_name) {
-                console.log(product[i]) total += price * quantity;
+                console.log(product[i])
+                    // total = price * quantity;
             }
         }
         // total += price * quantity;
@@ -101,4 +102,4 @@ function updateInventory(item_name, updatedQuantity) {
     })
 
 
-}
+};
